@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Fishing Data</title>
+  <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+   <script src="https://maps.googleapis.com/maps/api/js"></script>
+   <script>
+  function initialize() {}
+</script>
+</head>
+<h1>The Best Fishing Spots in NY State</h1>
+
+<body>
+  <div class="sidebar_container">
+ <div id="container">
+  <select id="theInput" class="selector" placeholder="select fish species">
+    <option>Choose A Category</option>
+    <option value="Brown Trout">Brown Trout</option>
+    <option value="Atlantic Salmon">Atlantic Salmon</option>
+    <option value="Brown Trout*">Brown Trout*</option>
+    <option value="Brook Trout">Brook Trout</option>
+    <option value="Brook Trout*">Brook Trout*</option>
+    <option value="Carp">Carp</option>
+    <option value="Chain Pickerel">Chain Pickerel</option>
+    <option value="Channel Catfish">Channel Catfish</option>
+    <option value="Chinook Salmon*">Chinook Salmon*</option>
+    <option value="Coho Salmon">Coho Salmon</option>
+    <option value="Coho Salmon*">Coho Salmon*</option>
+    <option value="Crappie">Crappie</option>
+    <option value="Lake Trout">Lake Trout</option>
+    <option value="Largemouth Bass">Largemouth Bass</option>
+    <option value="Muskellunge">Muskellunge</option>
+    <option value="Northern Pike">Northern Pike</option>
+    <option value="Rainbow Trout">Rainbow Trout</option>
+    <option value="Rainbow Trout*">Rainbow Trout*</option>
+    <option value="Smallmouth Bass">Smallmouth Bass</option>
+    <option value="Steelhead*">Steelhead*</option>
+    <option value="Steelhead">Steelhead</option>
+    <option value="Striped Bass">Striped Bass</option>
+    <option value="Sunfish">Sunfish</option>
+    <option value="Tiger Musky*">Tiger Musky*</option>
+    <option value="Walleye">Walleye</option>
+    <option value="Yellow Perch">Yellow Perch</option>
+  </select>
+</div>
+
+
+<button type="submit" class="buttonstyle" name="submit" value="submit" id="theButton">Submit</button>
+
+<div id="theResults" class="results"></div>
+</div>
+
+<div id="map-canvas"></div>
+
+
+
+<div class="credit">© Steve Guttman NYC via Flickr/Creative Commons License
+  https://www.flickr.com/photos/steveguttman/8038540912
+</div>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="scripts/script_copy3.js"></script>
+</body>
